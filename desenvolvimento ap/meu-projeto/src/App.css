@@ -1,0 +1,99 @@
+/* Centralizar tudo na tela */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Caixa principal */
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+/* Títulos */
+h2,
+h3 {
+  color: #333;
+}
+
+/* Campos de entrada */
+.form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Botões */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 5px;
+}
+
+/* Botão cadastrar/atualizar */
+button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+/* Botão editar */
+.edit-btn {
+  background-color: #ffc107;
+  color: black;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+/* Botão excluir */
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Lista de usuários */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
